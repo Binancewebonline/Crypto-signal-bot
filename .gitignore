@@ -3,31 +3,43 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Environment variables
+# Environment variables and virtual environments
 .env
+venv/
+env/
+.venv/
+ENV/
 
-# Logs and local files
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and databases
 *.log
 *.sqlite3
-*.db
 
-# Virtual environments
-env/
-venv/
-.venv/
-
-# VS Code config
+# IDE/editor configs
 .vscode/
+.idea/
+*.swp
+*.swo
 
-# macOS
+# Python-specific cache files
+*.pyc
+
+# Secrets or sensitive info files
+secrets.json
+config.yaml
+
+# Telegram bot token backups or key files
+token.txt
+credentials.json
+
+# MacOS system files
 .DS_Store
 
-# Pytest
-.pytest_cache/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# GitHub Codespaces
-.devcontainer/
-codespace.json
+# Others
+*.bak
+*.tmp
